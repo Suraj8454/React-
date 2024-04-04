@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background: linear-gradient(to right,rgb(145, 31, 31),rgb(45, 138, 45));
+
+    /* position: relative; */
+}
+.maincontainer h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-left: 130px;
+    margin-top: 20px;
+}
+.maincontainer .green{
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 60px;
+    width: 80px;
+    margin: 40px;
+
+}
+.maincontainer .red{
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 60px;
+    width: 80px;
+    margin: 40px;
+}
+.maincontainer .red:hover{
+    background-color: red;
+    color: black;
+}
+.maincontainer .green:hover{
+    background-color: green;
+    color: black;
+}
+

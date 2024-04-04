@@ -1,0 +1,63 @@
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+textarea {
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    font-size: 17px;
+    font-weight: 600;
+    outline: none;
+    resize: none;
+    overflow:auto;
+    scrollbar-width: none;
+}
+
+.main .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.main button {
+    margin-top: 20px;
+    height: 30px;
+    width: 60px;
+    margin-right: 5px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.main button:hover {
+    background-color: blue;
+    scale: 0.9;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main span {
+    color: aqua;
+}
+@media screen and (max-width:600px){
+    textarea{
+    height: 150px;
+    width: 300px;
+    }
+  
+  
+  }

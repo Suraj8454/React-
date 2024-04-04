@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.project_heading {
+    text-align: center;
+    margin-top: 80px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.project_heading span {
+    animation: data 1.5s linear;
+    color: blueviolet;
+}
+
+.project_button{
+    text-align: center;
+    margin-top: 10px;
+}
+.project_button a{
+    margin-right: 20px;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+.project_button a:hover{
+    background:transparent;
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+}
+.active{
+    border-bottom: 2px solid blueviolet;
+    color: blueviolet;
+}
+
+ .data{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+/*.data img{
+    margin-top: 50px;
+    animation: data 2s linear;
+    transition: all 0.5s ;
+}
+.data img:hover{
+    scale: 0.9;
+    filter: blur(2px);
+} */
+@keyframes data{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:400px) {
+   .image{
+    margin:20px;
+    height: 250px;
+    width: 250px;
+   }
+}
+@media screen and (max-width:786px) {
+.project{
+    margin-top: 100px;
+}
+
+}
+
+
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    overflow: hidden;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    animation:data 2.5s linear;
+    width: 300px;
+    height:300px;
+    margin: 25px;
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:350px;
+    width: 350px;
+    /* opacity: 0; */
+    transform: scale(0);
+    transition: 1.5s ease;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  /* When you mouse over the container, fade in the overlay icon*/
+  .container:hover .overlay{
+    /* opacity: 1; */
+    transform: scale(1);
+    /* width: 100%; */
+  }
+  
+  /* The icon inside the overlay is positioned in the middle vertically and horizontally */
+  .icon {
+    color: rgb(141, 135, 135);
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay p{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  /* When you move the mouse over the icon, change color */
+  .fa-user:hover {
+    color: black;
+  }

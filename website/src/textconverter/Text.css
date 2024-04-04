@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text_container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("rose.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    filter: blur(5px);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(12, 228, 22);
+    font-family: "Copperplate", "Papyrus", "fantasy";
+    font-size: 20px;
+}
+
+.container {
+    text-align: center;
+}
+
+.textspeak {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    border: 4px solid rgb(12, 228, 22);
+    box-shadow: 0px 0px 25px rgb(12, 228, 22);
+    color: rgb(12, 228, 22);
+    background: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /* font-size: 18px; */
+    font-weight: bold;
+    scrollbar-width: none;
+    /* background: rgba(255, 255, 255, 0.3); */
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    border: 4px solid rgb(12, 228, 22);
+    /* border: none; */
+    box-shadow: 0px 0px 25px rgb(12, 228, 22);
+    color: rgb(12, 228, 22);
+    background: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /* font-size: 18px; */
+    font-weight: bold;
+    scrollbar-width: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.buttons button {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: rgb(12, 228, 22);
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 4px solid rgb(12, 228, 22);
+    background: transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+    /* border: 4px solid rgb(12, 228, 22); */
+    box-shadow: 0px 0px 10px rgb(12, 228, 22);
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgb(12, 228, 22);
+    color: black;
+}
+
+@media screen and (max-width:560px) {
+    .header {
+        font-size: 15px;
+    }
+
+    .textspeak {
+        width: 300px;
+    }
+
+    .buttons {
+        margin-top: 40px;
+    }
+}

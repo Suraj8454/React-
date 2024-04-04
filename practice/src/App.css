@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+  color:rgb(4, 4, 5);
+  background:linear-gradient(to bottom,blue,white);
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin-bottom: 30px;
+}
+
+.container{
+  /* margin-top: 20px; */
+background-color: rgb(92, 90, 223);
+  height: 80px;
+  width: 300px;
+  margin-left:550px;
+  border-radius: 10px;
+}
+h1{
+ text-align: center;
+}
+p{
+ text-align: center;
+ font-weight: bold;
+}
+button{
+ text-align: center;
+ margin-left:650px;
+ margin-top: 15px;
+ padding: 5px;
+ background: linear-gradient(to bottom,blue,white);
+ color: black;
+ font-size: 20px;
+ font-weight: bold;
+ border-radius: 5px;
+ border: 2px solid;
+ cursor: pointer;
+}
+button:hover{
+ background: linear-gradient(to bottom,rgb(24, 24, 196),rgb(20, 15, 15));
+  scale: 0.9;
+}

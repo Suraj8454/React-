@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 15px 0px;
+    background-color: rgb(91, 223, 14);
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(91, 223, 14);
+}
+
+.footer span {
+    color: black;
+    font-size: 15px;
+}
+
+.container {
+    position: relative;
+    height: 300px;
+}
+
+.container .notes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
+.container .notes input {
+    height: 30px;
+    width: 220px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container .notes textarea {
+    width: 220px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    overflow: auto;
+    resize: none;
+    scrollbar-width: none;
+    margin: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border-bottom: 2px solid black;
+
+}
+
+.container .notes button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(116, 111, 106);
+    color: rgb(91, 223, 14);
+    margin-bottom: -15px;
+}
+
+.container .notes button:hover {
+    background-color: rgb(91, 223, 14);
+    color: rgb(116, 111, 106);
+}
+
+
+
+.notes_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    height: 300px ;
+    width:100%;
+    height: 100%;
+    /* overflow-Y: auto;
+    scroll-snap-type: x mandatory; */
+    /* text-align: center; */
+}
+
+.notesdetail:hover {
+    background-color: rgb(91, 223, 14);
+    color: black;
+}
+
+.notesdetail {
+    /* display: flex;
+    scroll-snap-align: center; */
+    transition: 0.5s;
+    overflow:auto;
+    box-shadow: 0px 0px 10px black;
+    scrollbar-width: none;
+    margin:15px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    max-height: 300px;
+    max-width: 350px;
+    padding: 10px;
+    height: 180px;
+}
+
+.notesdetail h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    width:100%;
+}
+
+.notesdetail textarea {
+    background: transparent;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    overflow: auto;
+    outline: none;
+    scrollbar-width: none;
+    resize: none;
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content:center ;
+    margin: 10px 0px 0px 0px;
+}
+
+.notesdetail button{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(116, 111, 106);
+    color: rgb(91, 223, 14);
+}
+
+.notes_container button:hover {
+    background-color: rgb(91, 223, 14);
+    color: rgb(116, 111, 106);
+}

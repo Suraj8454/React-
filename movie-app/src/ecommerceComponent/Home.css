@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.home .left {
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.left h3 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.left h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
+    font-family: "Copperplate", "Papyrus", "fantasy";
+    animation: top 2s linear;
+    z-index: 3;
+}
+
+.left h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.left p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: flex;
+    width: 300px;
+    animation: left 2s linear;
+}
+
+.right {
+    margin: 0px 20px 0px 20px;
+    animation: data 3s linear;
+}
+
+button {
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    background: transparent;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    animation: data 2s linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    scale: 0.9;
+    background-color: blueviolet;
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.contact:hover {
+    scale: 0.8;
+}
+
+.whatsapp:hover {
+    scale: 0.8;
+}
+
+.instagram:hover {
+    scale: 0.8;
+}
+
+@media screen and (max-width:786px) {
+     .home .right{
+        margin-left: 40px;
+    }
+}
+
+

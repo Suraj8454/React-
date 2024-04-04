@@ -1,0 +1,95 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .image {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {
+    font-family: Copperplate, Papyrus, fantasy;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.container h2 {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 10px 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container p {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.yes_button {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.yes_button button {
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid;
+    box-shadow: 5px 1px 8px black;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: transparent;
+    transition: 0.5s;
+    position: absolute;
+}
+
+.greenone a {
+    text-decoration: none;
+    color: black;
+}
+
+.redone {
+    height: 30px;
+    width: 40px;
+    margin-left: 40px;
+}
+
+.greenone {
+    z-index: 1;
+    margin-left: -40px;
+}
+
+.greenone:hover {
+    background-color: green;
+    color: black;
+}
+
+.redone:hover {
+    background-color: red;
+    color: black;
+} */

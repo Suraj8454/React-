@@ -1,0 +1,62 @@
+.carddetail {
+    display: flex;
+    display: inline-block;
+    aspect-ratio: 1/1;
+}
+
+.card {
+    background-color: blanchedalmond;
+    border: 2px solid;
+    margin-left: 110px;
+    margin-bottom: 40px;
+    /* height: 100%; */
+    /* display: inline-block;
+  display: flex; */
+  aspect-ratio: 1/1;
+}
+
+.card h5 {
+    width: 300PX;
+    padding: 3px;
+}
+
+.card p {
+    width: 300PX;
+    padding: 5px;
+}
+
+.card h3 {
+    padding: 5px;
+    text-align: center;
+}
+.card img{
+    padding: 30px;
+}
+
+.card button {
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.card button:hover {
+    background-color: rgb(168, 42, 42);
+    scale: 0.9;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(to right, red, white);
+}

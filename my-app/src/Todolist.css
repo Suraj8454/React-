@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bodycontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.container {
+    /* text-align: center; */
+    background-color: rgb(126, 221, 189);
+    box-shadow: 0px 0px 15px black;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0px 40px;
+    /* text-decoration: line-through; */
+}
+
+input {
+    margin: 10px 10px;
+    height: 30px;
+    text-align: center;
+    width: 250px;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+    background-color: rgb(126, 221, 189);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+
+ol li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 10px;
+}
+
+ol span {
+   
+    font-weight: bold;
+    font-size: 23px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+a{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 210px;
+}
+p{
+    margin-left: 18px;
+    color: red;
+    font-weight: 600;
+}
+/* span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+} */
+
+
+/* hover */
+
+ol span:hover{
+    color: rgb(65, 65, 235);
+    /* box-shadow:inset 10px black; */
+    /* box-shadow: 0px 0px 10px red; */
+}
+.btn:hover{
+    background-color: black;
+    color: aqua;
+}
+a:hover{
+    color: rgb(65, 65, 235);
+}
+

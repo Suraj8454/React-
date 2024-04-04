@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    background-image: url("logo.svg");
+    background-repeat: no-repeat;
+    background-size:900px;
+    background-position: top;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+
+.container .input {
+    display: flex;
+    text-align: center;
+}
+
+.input input {
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    margin-right: 20px;
+    outline: none;
+    font-size: 15px;
+}
+
+.input button {
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+.input button:hover {
+    color: rgba(8, 94, 82, 0.685);
+    scale: 0.9;
+}
+
+ol {
+    margin: 12px 5px 20px 5px;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ol button {
+    transition: all 1s ease;
+    margin-right: 15px;
+    background: transparent;
+    border: hidden;
+    cursor: pointer;
+}
+ol button:hover {
+    color: rgba(8, 94, 82, 0.685);
+    scale: 0.9;
+}
+
+
+@media  screen and (max-width:1900px) {
+    body{
+        background-size:1300px;
+    }
+}
+@media  screen and (max-width:1366px) {
+    body{
+        background-size:800px;
+    }
+}
+@media  screen and (max-width:673px) {
+    body{
+        background-size:500px;
+    }
+}
+@media  screen and (max-width:550px) {
+    body{
+        background-size:500px;
+    }
+}

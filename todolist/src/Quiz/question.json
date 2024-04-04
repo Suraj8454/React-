@@ -1,0 +1,42 @@
+[
+    {
+        "question":"What is Suraj Surname",
+        "number":1,
+        "answeroption":[
+            {"text":"Mallah", "iscorrect":true},
+            {"text":"sahani", "iscorrect":false},
+            {"text":"gupta", "iscorrect":false},
+            {"text":"yadav", "iscorrect":false}
+        ]
+    },
+    {
+        "question":"What is Suraj Favourite Color",
+        "number":2,
+        "answeroption":[
+            {"text":"green", "iscorrect":false},
+            {"text":"red", "iscorrect":false},
+            {"text":"blue", "iscorrect":false},
+            {"text":"yellow", "iscorrect":true}
+        ]
+    },
+    {
+        "question":"What is Suraj Favourite Sports",
+        "number":3,
+        "answeroption":[
+            {"text":"Foot Ball", "iscorrect":false},
+            {"text":"Tennis", "iscorrect":false},
+            {"text":"Cricket", "iscorrect":true},
+            {"text":"Hockey", "iscorrect":false}
+        ]
+    },
+    {
+        "question":"What is Suraj Birth date",
+        "number":4,
+        "answeroption":[
+            {"text":"24-07-2001", "iscorrect":false},
+            {"text":"23-05-2001", "iscorrect":false},
+            {"text":"29-02-2001", "iscorrect":false},
+            {"text":"23-06-2001", "iscorrect":true}
+        ]
+    }
+]

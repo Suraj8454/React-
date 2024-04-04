@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to left,black,white);
+}
+input{
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.container{
+    /* position: relative; */
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 150px;
+    width: 400px;
+    margin-left: 500px;
+    /* height: 400px; */
+}
+.container h1{
+    text-align: center;
+    margin-top: 50px;
+}
+ /* button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to left,rgb(119, 108, 108),white);
+  color: rgb(12, 10, 10);
+  font-weight: bold;
+} */
+.btn{
+    margin-top: 25px;
+    margin-right: 15px;
+    border-radius: 100%;
+    height: 35px;
+    width: 40px;
+    padding-top: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+.main input{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.btn:hover{
+    background: linear-gradient(to left,black,white);
+
+}
+.container li{
+    list-style: none;
+   padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+    /* margin-right: 300px; */
+}
+.newbtn{
+    height: 35px;
+    width: 40px;
+    /* padding-top: 4px; */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+   
+    padding-top: 1px;
+    border: none;
+    background: transparent;
+    /* position: absolute; */
+}
+.all{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 340px;
+    margin-bottom: 20px;
+}
+
+

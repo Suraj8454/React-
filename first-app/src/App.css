@@ -1,0 +1,46 @@
+.nav {
+  display: flex;
+  padding-left: 50px;
+  background-color: aqua;
+}
+
+#dark {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 12px;
+  right: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  transition: 1s ease-out;
+  cursor: pointer;
+}
+
+#light {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 100%;
+  cursor: pointer;
+  opacity: 0;
+  transition: 1s ease-in;
+  cursor: pointer;
+}
+
+.copy{
+  position: absolute;
+  left: 50%;
+  bottom:-4%;
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+}
+.copy span{
+  color: aqua;
+  font-size: 18px;
+}
+

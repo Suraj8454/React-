@@ -1,0 +1,27 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+  
+}
+.heading{
+    text-align: center;
+}
+.container_table{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container_table th{
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    gap: 100px;
+}
+.container_table td{
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px 20px;
+    gap: 100px;
+
+}

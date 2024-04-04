@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about_heading {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Copperplate, Papyrus, fantasy;
+    animation: data 2s linear;
+}
+
+.about_heading span {
+    color: blueviolet;
+}
+
+.about_main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.about_image {
+    margin: 0px 20px;
+    animation:left 1.5s linear;
+
+}
+
+.about_info h2 {
+    margin-top: 40px;
+    color: blueviolet;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.about_info p {
+    margin-top: 10px;
+    width: 280px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-weight: bold;
+}
+
+.about_info span {
+    color: blueviolet;
+    font-weight: 800;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.about_info button {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: blueviolet;
+    border: 4px solid blueviolet;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    animation: data 1.5s linear;
+}
+
+button:hover {
+    scale: 0.9;
+    background-color: blueviolet;
+    color: black
+}
+
+.about_button {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:786px) {
+    .about{
+        margin-top: 150px;
+    }
+    .about_main{
+        margin: 50px;
+
+    }
+} 
+
