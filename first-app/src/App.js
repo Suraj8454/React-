@@ -1,9 +1,8 @@
 // import logo from './logo.svg';
-import './App.css';
-import './component/Main.css';
-import Nav from './component/Nav';
-import Main from './component/Main';
-
+import "./App.css";
+import "./component/Main.css";
+import Nav from "./component/Nav";
+import Main from "./component/Main";
 
 function App() {
   function darking() {
@@ -12,8 +11,6 @@ function App() {
     document.getElementById("dark").style.opacity = 0;
     document.getElementById("navbarcolor").style.backgroundColor = "black";
     document.getElementById("navbarcolor").style.color = "white";
-
-
   }
 
   function lighting() {
@@ -22,20 +19,18 @@ function App() {
     document.getElementById("dark").style.opacity = 1;
     document.getElementById("navbarcolor").style.backgroundColor = "aqua";
     document.getElementById("navbarcolor").style.color = "black";
-
   }
   return (
     <>
-
       <Nav />
-      <Main/>
+      <Main />
       {/* <div>
         <button id='dark' onClick={darking}></button>
         <button id='light' onClick={lighting}></button>
       </div>  */}
-      <p className='copy'>Copy Right - <span>Suraj-2024</span></p>
-
-
+      <p className="copy">
+        Copy Right - <span>Suraj-2024</span>
+      </p>
     </>
   );
 }
